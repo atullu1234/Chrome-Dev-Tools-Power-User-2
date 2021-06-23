@@ -3,7 +3,6 @@ function changeBackgroundColor(element, color) {
 }
 
 const myBox = document.getElementById("myBox");
-debugger; /* creates a breakpoint and allows you to inspect the current state of the code */
 
 try {
   changeBackgroundColor(myBox, "blue");
